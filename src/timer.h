@@ -1,6 +1,7 @@
-#include "raylib.h"
 #ifndef TIMER_H
 #define TIMER_H
+
+#include "raylib.h"
 
 typedef struct {
     double counter;
@@ -8,14 +9,6 @@ typedef struct {
 } Timer;
 
 // Returns true if timer ticked
-bool UpdateTimer(Timer *timer)
-{
-    timer->counter += GetFrameTime();
-    if (timer->counter > timer->treshold) {
-        timer->counter = 0;
-        return true;
-    }
-    return false;
-}   
+bool UpdateTimer(Timer *timer);
 
 #endif // TIMER_H

@@ -73,11 +73,9 @@ static Entity* SummonEntity(PlayField *field)
         if (!field->entities[i].alive) {
             field->entities[i] = (Entity) { 0 };
             field->entities[i].alive = true;
-            /* NO
             SetSoundVolume(fxShoot, 0.1);
             SetSoundPitch(fxShoot, 0.2);
             PlaySound(fxShoot);
-            */
             return &field->entities[i];
         }
     }

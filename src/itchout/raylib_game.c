@@ -28,6 +28,9 @@ Font font = { 0 };
 Music music = { 0 };
 Sound fxCoin = { 0 };
 Sound fxKick = { 0 };
+Sound fxShoot = { 0 };
+Sound snRaylib;
+Sound snSkj;
 
 //----------------------------------------------------------------------------------
 // Local Variables Definition (local to this module)
@@ -69,6 +72,9 @@ int main(void)
     music = LoadMusicStream("resources/ambient.ogg");
     fxCoin = LoadSound("resources/coin.wav");
     fxKick = LoadSound("resources/snd_tkick.wav");
+    fxShoot = LoadSound("resources/snd_shoot.wav");
+    snSkj = LoadSound("resources/snd_skj.wav");
+    snRaylib = LoadSound("resources/snd_raylib.wav");
 
 /*
     SetMusicVolume(music, 1.0f);

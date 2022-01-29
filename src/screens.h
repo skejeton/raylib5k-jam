@@ -39,6 +39,9 @@ extern Font font;
 extern Music music;
 extern Sound fxCoin;
 extern Sound fxKick;
+extern Sound fxShoot;
+extern Sound snRaylib;
+extern Sound snSkj;
 #define DARKRED CLITERAL(Color){ 205, 0, 0, 255 }
 
 #ifdef __cplusplus

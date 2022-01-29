@@ -43,6 +43,7 @@ void InitTitleScreen(void)
     // TODO: Initialize TITLE screen variables here!
     framesCounter = 0;
     finishScreen = 0;
+    PlaySound(snSkj);
 }
 
 // Title Screen Update logic

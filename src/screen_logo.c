@@ -67,6 +67,8 @@ void InitLogoScreen(void)
 
     state = 0;
     alpha = 1.0f;
+
+    PlaySound(snRaylib);
 }
 
 // Logo Screen Update logic

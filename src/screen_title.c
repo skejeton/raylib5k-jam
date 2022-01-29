@@ -31,6 +31,7 @@
 //----------------------------------------------------------------------------------
 static int framesCounter = 0;
 static int finishScreen = 0;
+static double time = 2;
 
 //----------------------------------------------------------------------------------
 // Title Screen Functions Definition
@@ -49,12 +50,9 @@ void UpdateTitleScreen(void)
 {
     // TODO: Update TITLE screen variables here!
 
-    // Press enter or tap to change to GAMEPLAY screen
-    if (IsKeyPressed(KEY_ENTER) || IsGestureDetected(GESTURE_TAP))
-    {
-        //finishScreen = 1;   // OPTIONS
+    time -= GetFrameTime();
+    if (time < 0.0) {
         finishScreen = 2;   // GAMEPLAY
-        PlaySound(fxCoin);
     }
 }
 
@@ -62,8 +60,9 @@ void UpdateTitleScreen(void)
 void DrawTitleScreen(void)
 {
     // TODO: Draw TITLE screen here!
-    DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), GREEN);
-    DrawTextEx(font, "Hypertension", (Vector2){ 20, 10 }, font.baseSize*3, 4, DARKGREEN);
+    DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), BLACK);
+    DrawText("you'd wish it wasn't made by", 240, 170, 10, GRAY);
+    DrawText("skejeton", 240, 180, 70, RAYWHITE);
 }
 
 // Title Screen Unload logic

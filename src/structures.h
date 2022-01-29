@@ -24,10 +24,13 @@ typedef enum {
     // (Move to next stage), preferrably used with ENT_ARROW_NEXT
     ENTB_NEXT_LEVEL,
     ENTB_FOLLOW_DIRECTION,
+    ENTB_TARGET_PLAYER,
+    ENTB_WAVY,
 } EntityBehaviour;
 
 typedef struct {
     bool alive;
+    double amplitude;
     double lifetime;
     double tensionDelta;
     double angle;

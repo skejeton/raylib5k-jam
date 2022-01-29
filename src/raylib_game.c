@@ -75,8 +75,8 @@ int main(void)
 
     // Setup and init first screen
     // TODO: Change it to LOGO in production
-    currentScreen = GAMEPLAY;
-    InitGameplayScreen();
+    currentScreen = LOGO;
+    InitLogoScreen();
 
 #if defined(PLATFORM_WEB)
     emscripten_set_main_loop(UpdateDrawFrame, 60, 1);

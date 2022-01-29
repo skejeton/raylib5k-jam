@@ -1,17 +1,15 @@
 
 ## HYPER TENSION
 
-![HYPER TENSION](screenshots/screenshot000.png "HYPER TENSION")
+![HYPER TENSION](screenshots/screenshot001.png "HYPER TENSION")
 
 ### Description
 
-$(Your Game Description)
+Dodge the bullets, but stay close to them
 
 ### Features
 
- - Billets
- - $(Game Feature 02)
- - $(Game Feature 03)
+ - Bullets
 
 ### Controls
 
@@ -21,7 +19,7 @@ Keyboard:
 
 ### Screenshots
 
-![HYPER TENSION](screenshots/gameplay.gif"HYPER TENSION")
+![HYPER TENSION](screenshots/gameplay.gif "HYPER TENSION")
 
 ### Developers
 

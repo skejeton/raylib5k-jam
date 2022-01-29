@@ -1,7 +1,7 @@
 
-## $(Game Title)
+## HYPER TENSION
 
-![$(Game Title)](screenshots/screenshot000.png "$(Game Title)")
+![HYPER TENSION](screenshots/screenshot000.png "HYPER TENSION")
 
 ### Description
 
@@ -9,20 +9,19 @@ $(Your Game Description)
 
 ### Features
 
- - $(Game Feature 01)
+ - Billets
  - $(Game Feature 02)
  - $(Game Feature 03)
 
 ### Controls
 
 Keyboard:
- - $(Game Control 01)
- - $(Game Control 02)
- - $(Game Control 03)
+ - WASD
+ - Arrow keys
 
 ### Screenshots
 
-_TODO: Show your game to the world, animated GIFs recommended!._
+![HYPER TENSION](screenshots/gameplay.gif"HYPER TENSION")
 
 ### Developers
 
@@ -30,9 +29,7 @@ _TODO: Show your game to the world, animated GIFs recommended!._
 
 ### Links
 
- - YouTube Gameplay: $(YouTube Link)
- - itch.io Release: $(itch.io Game Page)
- - Steam Release: $(Steam Game Page)
+ - itch.io Release: https://skejeton.itch.io/hyper-tension
 
 ### License
 
